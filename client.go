@@ -17,12 +17,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uacp"
-	"github.com/gopcua/opcua/uasc"
+	"github.com/kowiste/opcua/debug"
+	"github.com/kowiste/opcua/errors"
+	"github.com/kowiste/opcua/id"
+	"github.com/kowiste/opcua/ua"
+	"github.com/kowiste/opcua/uacp"
+	"github.com/kowiste/opcua/uasc"
 )
 
 // GetEndpoints returns the available endpoint descriptions for the server.
@@ -152,7 +152,7 @@ type Client struct {
 // To modify configuration you can provide any number of Options as opts. See
 // #Option for details.
 //
-// https://godoc.org/github.com/gopcua/opcua#Option
+// https://godoc.org/github.com/kowiste/opcua#Option
 func NewClient(endpoint string, opts ...Option) *Client {
 	cfg, sessionCfg := ApplyConfig(opts...)
 	c := Client{

@@ -15,11 +15,11 @@ A native Go implementation of the OPC/UA Binary Protocol.
 You need go1.13 or higher. We test with the current and previous Go version.
 
 [![CircleCI](https://circleci.com/gh/gopcua/opcua.svg?style=shield)](https://circleci.com/gh/gopcua/opcua)
-[![GitHub](https://github.com/gopcua/opcua/workflows/gopuca/badge.svg)](https://github.com/gopcua/opcua/actions)
-[![GoDoc](https://godoc.org/github.com/gopcua/opcua?status.svg)](https://godoc.org/github.com/gopcua/opcua)
-[![GolangCI](https://golangci.com/badges/github.com/gopcua/opcua.svg)](https://golangci.com/r/github.com/gopcua/opcua)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/gopcua/opcua/blob/master/LICENSE)
-[![Version](https://img.shields.io/github/tag/gopcua/opcua.svg?color=blue&label=version)](https://github.com/gopcua/opcua/releases)
+[![GitHub](https://github.com/kowiste/opcua/workflows/gopuca/badge.svg)](https://github.com/kowiste/opcua/actions)
+[![GoDoc](https://godoc.org/github.com/kowiste/opcua?status.svg)](https://godoc.org/github.com/kowiste/opcua)
+[![GolangCI](https://golangci.com/badges/github.com/kowiste/opcua.svg)](https://golangci.com/r/github.com/kowiste/opcua)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/kowiste/opcua/blob/master/LICENSE)
+[![Version](https://img.shields.io/github/tag/gopcua/opcua.svg?color=blue&label=version)](https://github.com/kowiste/opcua/releases)
 
 ## Quickstart
 
@@ -27,7 +27,7 @@ You need go1.13 or higher. We test with the current and previous Go version.
 # make sure you have go1.13 or higher
 
 # install library
-go get -u github.com/gopcua/opcua
+go get -u github.com/kowiste/opcua
 
 # get current date and time 'ns=0;i=2258'
 go run examples/datetime/datetime.go -endpoint opc.tcp://localhost:4840
@@ -68,8 +68,8 @@ but there is still no guarantee of API stability.
 However, you can safely assume that we are aiming to make the APIs as
 stable as possible. :)
 
-The [Current State](https://github.com/gopcua/opcua/wiki/Current-State) was moved
-to the [Wiki](https://github.com/gopcua/opcua/wiki).
+The [Current State](https://github.com/kowiste/opcua/wiki/Current-State) was moved
+to the [Wiki](https://github.com/kowiste/opcua/wiki).
 
 ## Your Help is Appreciated
 
@@ -84,7 +84,7 @@ Also, if the library is already useful please spread the word as a motivation.
 
 ## Authors
 
-The [Gopcua Team](https://github.com/gopcua/opcua/graphs/contributors).
+The [Gopcua Team](https://github.com/kowiste/opcua/graphs/contributors).
 
 If you need to get in touch with us directly you may find us on [Keybase.io](https://keybase.io)
 but try to create an issue first.
@@ -159,4 +159,4 @@ The current set of supported services is only for the high-level client.
 
 ## License
 
-[MIT](https://github.com/gopcua/opcua/blob/master/LICENSE)
+[MIT](https://github.com/kowiste/opcua/blob/master/LICENSE)

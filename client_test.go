@@ -1,7 +1,7 @@
 package opcua
 
 import (
-	"github.com/gopcua/opcua/ua"
+	"github.com/kowiste/opcua/ua"
 	"github.com/pascaldekloe/goe/verify"
 	"testing"
 )

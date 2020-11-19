@@ -5,8 +5,8 @@
 package ua
 
 import (
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/id"
+	"github.com/kowiste/opcua/errors"
+	"github.com/kowiste/opcua/id"
 )
 
 // eotypes contains all known extension objects.

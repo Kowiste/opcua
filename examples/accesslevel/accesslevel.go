@@ -9,9 +9,9 @@ import (
 	"flag"
 	"log"
 
-	"github.com/gopcua/opcua"
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/ua"
+	"github.com/kowiste/opcua"
+	"github.com/kowiste/opcua/debug"
+	"github.com/kowiste/opcua/ua"
 )
 
 func main() {
